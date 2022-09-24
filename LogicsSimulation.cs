@@ -86,7 +86,7 @@ namespace Simulation
                 }
                 else
                 {
-                    ConsoleTools.CursorPosition(points.x, points.y);
+                    ConsoleTools.CursorPosition(periosX, previosY);
                     Console.Write(nothingSymbol);
                     count++;
                     ConsoleTools.Sleep(value_time_for_delete);
